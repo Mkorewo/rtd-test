@@ -2,12 +2,12 @@ Tytuł
 =====
 Lorem ipsum dolor sit amet
 
-nagłowek1
+Nagłowek1
 ---------
 
 consectetur adipiscing elit
 
-nagłowek2
----------
+Nagłowek2
+~~~~~~~~~
 
 Nam ut semper ligula, sit amet viverra
