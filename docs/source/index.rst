@@ -42,7 +42,7 @@ ex erat lobortis tortor, a condimentum turpis ex euismod turpis.
 
   shutil.move(trg,dst)
 
-Odnośnik lokalny RtD :doc:`api`
+Odnośnik lokalny RtD :doc:`api.rst`
 
 Odnośnik zewnętrzny-inny serwis `google <https://www.google.com>`_
 
